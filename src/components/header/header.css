@@ -1,0 +1,23 @@
+.header {
+  max-width: 980px;
+  margin: auto;
+}
+
+.logo {
+  width: 25%;
+  padding: 20px 0;
+  display: block;
+  margin-left: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo{
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .logo{
+    width: 45%;
+  }
+}
